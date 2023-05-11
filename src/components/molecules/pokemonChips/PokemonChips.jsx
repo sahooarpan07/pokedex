@@ -13,11 +13,11 @@ const PokemonChips = ({pokemon, showWeakness}) => {
           showWeakness && pokemon.weakness
             ? pokemon.weakness[index]
             : type?.type?.name;
-
+        console.log('value', value);
         return (
           <PokemonChip
             backgroundColor={COLORS[type?.type?.name]}
-            value={getCapitalisedWord(value)}
+            value={value ? getCapitalisedWord(value) : type.type.name}
             key={index}
           />
         );

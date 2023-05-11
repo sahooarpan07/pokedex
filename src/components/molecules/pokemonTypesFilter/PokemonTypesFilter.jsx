@@ -45,6 +45,7 @@ const PokemonChipsFilter = ({pokemonTypes, setPokemonTypes}) => {
             value={pokemonTypes[index].isChecked}
           />
         )}
+        keyExtractor={item => item.name}
       />
     </View>
   );

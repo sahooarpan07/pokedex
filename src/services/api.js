@@ -1,11 +1,15 @@
 import axios from '../constants/axiosConfig';
 
+async function transformPokemonData(url) {
+  return await axios.get(url);
+}
+
 async function getPokemonData(url) {
   try {
     const {data: {results = []} = {}} = await axios.get(url);
     const transformedPokemonData = await Promise.all(
       results.map(async pokemon => {
-        const pokemonRecords = await axios.get(pokemon.url);
+        const pokemonRecords = await transformPokemonData(pokemon.url);
         return pokemonRecords.data;
       }),
     );
@@ -37,4 +41,5 @@ export {
   getPokemonDescription,
   getPokemonStrengthWeaknesses,
   getPokemonTypes,
+  transformPokemonData,
 };

@@ -17,11 +17,12 @@ test('should render child components with provided context', () => {
     name: 'Pickachu',
     id: 20,
   };
+  const dispatch = jest.fn();
   render(
     <PokemonContext.Provider
       value={{
         selectedPokemon,
-        dispatch: jest.fn(),
+        dispatch,
       }}>
       <TestingComponent />
     </PokemonContext.Provider>,

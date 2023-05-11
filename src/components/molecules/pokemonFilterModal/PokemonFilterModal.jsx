@@ -2,7 +2,7 @@ import {View, Text, ScrollView, Pressable} from 'react-native';
 import React, {useState} from 'react';
 import PokemonModal from '../../atoms/modal/PokemonModal';
 import AccordionItem from '../../atoms/accordionItem/AccordionItem';
-import styles from './PokemonFilterModal.styles';
+import {styles} from './PokemonFilterModal.styles';
 import PokemonChipsFilter from '../pokemonTypesFilter/PokemonTypesFilter';
 const PokemonFilterModal = ({
   modalVisible,
@@ -37,10 +37,12 @@ const PokemonFilterModal = ({
             style={styles.scrollContainer}
             showsVerticalScrollIndicator={false}>
             <AccordionItem title="Type">
-              <PokemonChipsFilter
-                pokemonTypes={pokemonTypes}
-                setPokemonTypes={setPokemonTypes}
-              />
+              {pokemonTypes && (
+                <PokemonChipsFilter
+                  pokemonTypes={pokemonTypes}
+                  setPokemonTypes={setPokemonTypes}
+                />
+              )}
             </AccordionItem>
           </View>
         </View>

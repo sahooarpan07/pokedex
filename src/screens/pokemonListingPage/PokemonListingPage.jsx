@@ -31,7 +31,7 @@ const PokemonListingPage = ({navigation}) => {
           ...pokemonResults,
           loading: true,
         });
-        const {pokemonRecords} = await getPokemonData(`/pokemon?limit=100`);
+        const {pokemonRecords} = await getPokemonData(`/pokemon?limit=80`);
         setPokemonResults({
           ...pokemonResults,
           loading: false,

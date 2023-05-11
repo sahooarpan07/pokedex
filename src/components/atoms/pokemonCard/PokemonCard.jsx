@@ -35,7 +35,9 @@ function displayPokemonCardData(pokemon, onPress, shouldDisplayName) {
           <Text style={[pokemonStyle.name]}>
             {getCapitalisedWord(pokemon?.name)}
           </Text>
-          <Text style={[pokemonStyle.name]}>{'00' + pokemon?.id}</Text>
+          <Text style={[pokemonStyle.name]}>
+            {pokemon?.id < 10 ? '00' + pokemon?.id : '0' + pokemon.id}
+          </Text>
         </>
       )}
     </Pressable>

@@ -6,6 +6,7 @@ import {
   getPokemonDescription,
   getPokemonStrengthWeaknesses,
   getPokemonTypes,
+  transformPokemonData,
 } from './api';
 
 it('should mock Pokemon description api', async () => {
@@ -193,4 +194,34 @@ it('should return an error when request fails', async () => {
   mock.onGet(url).reply(404, error);
   await getPokemonData(url);
   expect(error.message).toEqual('Request failed with status code 404');
+});
+
+it('should mock Pokemon transform api', async () => {
+  const mock = new MockAdapter(axios);
+  const data = {
+    abilities: [
+      {
+        ability: {
+          name: 'overgrow',
+          url: 'https://pokeapi.co/api/v2/ability/65/',
+        },
+        is_hidden: false,
+        slot: 1,
+      },
+      {
+        ability: {
+          name: 'chlorophyll',
+          url: 'https://pokeapi.co/api/v2/ability/34/',
+        },
+        is_hidden: true,
+        slot: 3,
+      },
+    ],
+  };
+  const id = 1;
+  mock.onGet(`/pokemon/${id}`).reply(200, data);
+  const response = await transformPokemonData(
+    'https://pokeapi.co/api/v2/pokemon/1',
+  );
+  expect(response.data).toEqual(data);
 });
