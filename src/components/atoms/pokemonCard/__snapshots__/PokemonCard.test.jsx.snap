@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Pokemon Card correctly 1`] = `
+<BVLinearGradient
+  colors={
+    [
+      4290827464,
+      4291803117,
+    ]
+  }
+  endPoint={
+    {
+      "x": 0.5,
+      "y": 1,
+    }
+  }
+  locations={null}
+  startPoint={
+    {
+      "x": 0.5,
+      "y": 0,
+    }
+  }
+  style={
+    [
+      {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderColor": "#180345",
+        "borderRadius": 8,
+        "borderStyle": "dashed",
+        "borderWidth": 2,
+        "flex": 1,
+        "justifyContent": "center",
+        "margin": 16,
+        "padding": 12,
+        "shadowColor": "black",
+        "shadowOpacity": 0.25,
+      },
+      {
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <Image
+      source={
+        {
+          "uri": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/Bulbasuar.png",
+        }
+      }
+      style={
+        {
+          "height": 160,
+          "width": 160,
+        }
+      }
+    />
+  </View>
+</BVLinearGradient>
+`;

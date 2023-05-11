@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Pokemon Feature 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "column",
+      "marginTop": 16,
+      "width": "50%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#180345",
+        "fontSize": 20,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Weight
+  </Text>
+  <Text
+    style={
+      {
+        "marginTop": 20,
+      }
+    }
+  >
+    68 kg
+  </Text>
+</View>
+`;

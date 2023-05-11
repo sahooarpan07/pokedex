@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Progress Bar 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#180345",
+        "fontSize": 18,
+        "fontWeight": "400",
+        "textAlign": "center",
+      }
+    }
+  >
+    HP
+  </Text>
+  <View
+    style={
+      {
+        "margin": 8,
+      }
+    }
+  >
+    <View
+      animated={true}
+      animationConfig={
+        {
+          "bounciness": 0,
+        }
+      }
+      animationType="spring"
+      indeterminate={false}
+      indeterminateAnimationDuration={1000}
+      onLayout={[Function]}
+      progress={68}
+      style={
+        [
+          {
+            "backgroundColor": undefined,
+            "borderColor": "#180345",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "overflow": "hidden",
+            "width": 200,
+          },
+          {
+            "position": "relative",
+          },
+        ]
+      }
+      useNativeDriver={false}
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "#180345",
+            "height": 12,
+            "transform": [
+              {
+                "translateX": -7.105427357601002e-15,
+              },
+              {
+                "translateX": 0,
+              },
+              {
+                "scaleX": 1,
+              },
+            ],
+          }
+        }
+      />
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "color": "#fff",
+        "fontWeight": "bold",
+        "left": 200,
+        "position": "absolute",
+        "top": 4,
+      }
+    }
+  >
+    6800
+  </Text>
+</View>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Pokemon Card correctly 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "gap": 8,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#180345",
+          "borderRadius": 6,
+          "borderWidth": 2,
+          "padding": 4,
+        },
+        {
+          "backgroundColor": "#C0D4C8",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#180345",
+          "fontSize": 12,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Grass
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "borderColor": "#180345",
+          "borderRadius": 6,
+          "borderWidth": 2,
+          "padding": 4,
+        },
+        {
+          "backgroundColor": "#CFB7ED",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#180345",
+          "fontSize": 12,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Poison
+    </Text>
+  </View>
+</View>
+`;

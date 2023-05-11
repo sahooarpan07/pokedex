@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Pokemon Modal 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  transparent={true}
+  visible={true}
+/>
+`;

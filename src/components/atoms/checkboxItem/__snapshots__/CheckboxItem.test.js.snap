@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Checkbox with label 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    accessibilityRole="checkbox"
+    accessibilityState={
+      {
+        "checked": true,
+        "disabled": false,
+      }
+    }
+    accessibilityValue={
+      {
+        "text": "on",
+      }
+    }
+    accessible={true}
+    pointerEvents="auto"
+    testID="checkbox"
+  >
+    <RNCCheckbox
+      forwardedRef={null}
+      onValueChange={[Function]}
+      style={
+        [
+          {
+            "backgroundColor": "transparent",
+            "height": 32,
+            "width": 32,
+          },
+          undefined,
+        ]
+      }
+      value={true}
+    />
+  </View>
+  <Text
+    style={
+      {
+        "fontWeight": "bold",
+        "marginTop": 4,
+      }
+    }
+  >
+    Grass
+  </Text>
+</View>
+`;

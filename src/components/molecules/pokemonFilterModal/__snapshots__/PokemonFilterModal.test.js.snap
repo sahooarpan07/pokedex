@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PokemonFilterModal correctly 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "borderRadius": 10,
+        "height": "100%",
+      }
+    }
+    testId="filterModal"
+  >
+    <View
+      style={
+        {
+          "padding": 24,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderBottomColor": "#ddd",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 32,
+            "paddingVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#180345",
+              "flex": 1,
+              "fontSize": 24,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Filters
+        </Text>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "borderColor": "#180345",
+              "borderRadius": 20,
+              "borderWidth": 1,
+              "paddingHorizontal": 8,
+              "paddingVertical": 2,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 16,
+                "fontWeight": 600,
+              }
+            }
+          >
+            X
+          </Text>
+        </View>
+      </View>
+      <View
+        showsVerticalScrollIndicator={false}
+        style={
+          {
+            "marginBottom": 150,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "borderColor": "#180345",
+              "borderRadius": 5,
+              "borderWidth": 1,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "paddingHorizontal": 20,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "borderRightColor": "#ddd",
+                  "borderRightWidth": 1,
+                  "color": "#180345",
+                  "flex": 1,
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Type
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#180345",
+                  "flex": 2,
+                  "fontSize": 18,
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              Status
+            </Text>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "borderColor": "#180345",
+                  "borderRadius": 30,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 8,
+                  "paddingVertical": 2,
+                }
+              }
+              testID="expand-button"
+            >
+              <Text
+                style={
+                  {
+                    "color": "#180345",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                +
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#fff",
+          "borderTopColor": "#ddd",
+          "borderTopWidth": 1,
+          "bottom": 0,
+          "flexDirection": "row",
+          "gap": 20,
+          "paddingHorizontal": 20,
+          "paddingVertical": 20,
+          "position": "absolute",
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 8,
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 10,
+            },
+            {
+              "borderColor": "#180345",
+              "borderWidth": 1,
+            },
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {},
+              {
+                "color": "#180345",
+              },
+            ]
+          }
+        >
+          Reset
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 8,
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 10,
+            },
+            {
+              "backgroundColor": "#180345",
+            },
+          ]
+        }
+        testID="apply"
+      >
+        <Text
+          style={
+            [
+              {},
+              {
+                "color": "#fff",
+              },
+            ]
+          }
+        >
+          Apply
+        </Text>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

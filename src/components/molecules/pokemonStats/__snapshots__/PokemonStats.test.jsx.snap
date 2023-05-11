@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Pokemon Stats correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#65bfb6",
+      "marginVertical": 8,
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#180345",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "marginBottom": 16,
+      }
+    }
+  >
+    Stats
+  </Text>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "marginVertical": 8,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#180345",
+            "fontSize": 18,
+            "fontWeight": "400",
+            "textAlign": "center",
+          }
+        }
+      >
+        ATTACK
+      </Text>
+      <View
+        style={
+          {
+            "margin": 8,
+          }
+        }
+      >
+        <View
+          animated={true}
+          animationConfig={
+            {
+              "bounciness": 0,
+            }
+          }
+          animationType="spring"
+          indeterminate={false}
+          indeterminateAnimationDuration={1000}
+          onLayout={[Function]}
+          progress={0.74}
+          style={
+            [
+              {
+                "backgroundColor": undefined,
+                "borderColor": "#180345",
+                "borderRadius": 4,
+                "borderWidth": 1,
+                "overflow": "hidden",
+                "width": 200,
+              },
+              {
+                "position": "relative",
+              },
+            ]
+          }
+          useNativeDriver={false}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "backgroundColor": "#180345",
+                "height": 12,
+                "transform": [
+                  {
+                    "translateX": -7.105427357601002e-15,
+                  },
+                  {
+                    "translateX": -25.739999999999995,
+                  },
+                  {
+                    "scaleX": 0.740026,
+                  },
+                ],
+              }
+            }
+          />
+        </View>
+      </View>
+      <Text
+        style={
+          {
+            "color": "#fff",
+            "fontWeight": "bold",
+            "left": 200,
+            "position": "absolute",
+            "top": 4,
+          }
+        }
+      >
+        74
+      </Text>
+    </View>
+  </View>
+</View>
+`;

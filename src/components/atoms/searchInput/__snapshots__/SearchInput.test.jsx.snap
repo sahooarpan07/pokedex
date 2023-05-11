@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SearchInput Filter 1`] = `
+<View
+  style={
+    {
+      "flex": 4,
+      "position": "relative",
+    }
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Search pokemon here"
+    style={
+      {
+        "backgroundColor": "#fff",
+        "borderRadius": 16,
+        "borderWidth": 2,
+        "margin": 12,
+        "padding": 16,
+      }
+    }
+    testID="text-input"
+    value="Bu"
+  />
+  <View
+    style={
+      {
+        "position": "absolute",
+        "right": 30,
+        "top": 30,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": "black",
+            "fontSize": 30,
+          },
+          undefined,
+          {
+            "fontFamily": "EvilIcons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

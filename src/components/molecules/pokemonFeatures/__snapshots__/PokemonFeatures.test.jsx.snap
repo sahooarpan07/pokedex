@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Pokemon Card correctly 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "marginVertical": 48,
+      "paddingHorizontal": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "marginTop": 16,
+        "width": "50%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#180345",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Height
+    </Text>
+    <Text
+      style={
+        {
+          "marginTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#180345",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "textAlign": "center",
+          }
+        }
+      >
+        2' 4"
+      </Text>
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "marginTop": 16,
+        "width": "50%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#180345",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Weight
+    </Text>
+    <Text
+      style={
+        {
+          "marginTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#180345",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "marginTop": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        68.8 kg
+      </Text>
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "marginTop": 16,
+        "width": "50%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#180345",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Gender(s)
+    </Text>
+    <Text
+      style={
+        {
+          "marginTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#180345",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "textAlign": "center",
+          }
+        }
+      >
+        Male, Female
+      </Text>
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "marginTop": 16,
+        "width": "50%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#180345",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Egg Groups
+    </Text>
+    <Text
+      style={
+        {
+          "marginTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#180345",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "marginBottom": 8,
+            "textAlign": "center",
+          }
+        }
+      />
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "marginTop": 16,
+        "width": "50%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#180345",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Abilities
+    </Text>
+    <Text
+      style={
+        {
+          "marginTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#180345",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "marginBottom": 8,
+            "textAlign": "center",
+          }
+        }
+      />
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "marginTop": 16,
+        "width": "50%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#180345",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Types
+    </Text>
+    <Text
+      style={
+        {
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "gap": 8,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderColor": "#180345",
+                "borderRadius": 6,
+                "borderWidth": 2,
+                "padding": 4,
+              },
+              {
+                "backgroundColor": "#C0D4C8",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#180345",
+                "fontSize": 12,
+                "fontWeight": "500",
+              }
+            }
+          >
+            Grass
+          </Text>
+        </View>
+        <View
+          style={
+            [
+              {
+                "borderColor": "#180345",
+                "borderRadius": 6,
+                "borderWidth": 2,
+                "padding": 4,
+              },
+              {
+                "backgroundColor": "#CFB7ED",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#180345",
+                "fontSize": 12,
+                "fontWeight": "500",
+              }
+            }
+          >
+            Poison
+          </Text>
+        </View>
+      </View>
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "marginTop": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#180345",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Weak Against
+    </Text>
+    <Text
+      style={
+        {
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "gap": 8,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderColor": "#180345",
+                "borderRadius": 6,
+                "borderWidth": 2,
+                "padding": 4,
+              },
+              {
+                "backgroundColor": "#C0D4C8",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#180345",
+                "fontSize": 12,
+                "fontWeight": "500",
+              }
+            }
+          >
+            Grass
+          </Text>
+        </View>
+        <View
+          style={
+            [
+              {
+                "borderColor": "#180345",
+                "borderRadius": 6,
+                "borderWidth": 2,
+                "padding": 4,
+              },
+              {
+                "backgroundColor": "#CFB7ED",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#180345",
+                "fontSize": 12,
+                "fontWeight": "500",
+              }
+            }
+          >
+            Poison
+          </Text>
+        </View>
+      </View>
+    </Text>
+  </View>
+</View>
+`;
